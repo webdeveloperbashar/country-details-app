@@ -8,7 +8,6 @@ inputVal.addEventListener("keypress", (e) => {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         let country = {
           flag: data[0].flag,
           name: data[0].name,
