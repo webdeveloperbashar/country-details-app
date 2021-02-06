@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(45deg, rgba(3, 1, 1, 0.5), rgba(0, 0, 0, 0.486)),url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+section#country {
+    width: 520px;
+    margin: auto;
+    padding: 10px;
+}
+div#country-wrapper {
+    background: #00000075;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.country-details {
+    margin-top: 20px;
+}
+
+#country-name{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input#input-val {
+    width: 98%;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 30px;
+    border: none;
+}
+img#flag-big {
+    width: 150px;
+}
+img#flag-img {
+    width: 50px;
+}
+th{
+    font-size: 22px;
+    font-weight: 600;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 600;
+    font-family: arial, sans-serif;
+}
+
+tr:nth-child(2n){
+    background: rgba(119, 119, 119, 0.479);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
